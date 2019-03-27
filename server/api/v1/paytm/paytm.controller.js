@@ -30,7 +30,7 @@ const initiatePayment = (req, res) => {
     }
     form_fields += "<input type='hidden' name='CHECKSUMHASH' value='" + checksum + "' >";
 
-    const htmlHeader = '<head><title>Shoon-Chokdi Checkout Page</title></head>';
+    const htmlHeader = '<head><title>Checkout Page</title></head>';
     const htmlForm = `<form method="post" action="${txn_url}" name="f1">${form_fields}</form>`;
     const htmlScript = '<script type="text/javascript">document.f1.submit();</script>';
     const htmlBody = `<body><center><h1>Please do not refresh this page...</h1></center>${htmlForm}${htmlScript}</body>`;
