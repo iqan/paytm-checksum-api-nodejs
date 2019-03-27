@@ -1,0 +1,10 @@
+# ignore files while using docker
+
+/node_modules
+*.md
+!README.md
+.*ignore
+!.dockerignore
+.editorconfig
+.eslint*
+/client
