@@ -16,7 +16,7 @@ A PayTM checksum api in nodejs to provide backend for Mobile/Web apps
 `npm run start`
 
 ### Endpoints
-V1 Base url pattern: `http://<url>:<port>/api/v1/paytm/<endpoint>`
+V1 Base url pattern: `http://<host>:<port>/api/v1/paytm/<endpoint>`
 
 #### Examples:
 http://localhost:3000/api/v1/paytm/healthcheck - To verify if API is running correctly
