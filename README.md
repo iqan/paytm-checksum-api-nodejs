@@ -20,7 +20,7 @@ V1 Base url pattern: `http://<host>:<port>/api/v1/paytm/<endpoint>`
 
 #### Examples:
 http://localhost:3000/api/v1/paytm/healthcheck - To verify if API is running correctly
-http://localhost:3000/api/v1/paytm/initiatePayment - Will redirect to PayTM gateway for payments
+http://localhost:3000/api/v1/paytm/initiatePayment?order_id=123&customer_id=123&amount=10&email=abc@gmail.com - Will redirect to PayTM gateway for payments
 http://localhost:3000/api/v1/paytm/callback - This endpoint is called from PayTM with payload about operation
 
 
